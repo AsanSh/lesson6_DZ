@@ -1,6 +1,10 @@
 package com.company;
 
 public class Weapon extends GameEntity {
+
+    private String type;
+    private String name;
+
     public String getType() {
         return type;
     }
@@ -17,7 +21,5 @@ public class Weapon extends GameEntity {
         this.name = name;
     }
 
-    private String type;
-    private String name;
 
 }
