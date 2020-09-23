@@ -21,12 +21,16 @@ public class Main {
 */
 
     public static void main(String[] args) {
-
+        Weapon weapon = new Weapon();
+        weapon.setName("AK-47");
+        weapon.setType("Автомат");
         Boss tanos = new Boss();
         tanos.setDamage(200);
         tanos.setDefence("Magic");
-        tanos.setWeapon("AK-47");
         tanos.setHealth(1000);
-        System.out.println(tanos.getDamage()+" "+ tanos.getDefence()+ " "+ tanos.getWeapon()+" "+ tanos.getHealth());
+        System.out.println(tanos.getDamage() + " "
+                + tanos.getDefence() + " " + " " +
+                tanos.getHealth()+ " "+weapon.getName()+" " +
+                ""+ weapon.getType());
     }
 }
