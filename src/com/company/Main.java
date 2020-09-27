@@ -28,9 +28,13 @@ public class Main {
         tanos.setDamage(200);
         tanos.setDefence("Magic");
         tanos.setHealth(1000);
+        tanos.setWeapon(weapon);
+
         System.out.println(tanos.getDamage() + " "
                 + tanos.getDefence() + " " + " " +
-                tanos.getHealth()+ " "+weapon.getName()+" " +
-                ""+ weapon.getType());
+                tanos.getHealth() + " " + weapon.getName() + " " +
+                "" + weapon.getType() + " " + tanos.getWeapon());
+
     }
+
 }
